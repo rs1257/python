@@ -20,3 +20,6 @@ def calculate_stamp_duty(property_value: int) -> int:
             break
 
     return total_stamp_duty
+
+
+print(calculate_stamp_duty(10000000))
