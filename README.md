@@ -5,6 +5,7 @@
 The ask is to produce a stamp duty calculator. The calculator should accept the purchase price of the house and will return the total stamp duty they owe.
 
 Use the following rules to calculate the total stamp duty.
+
 ```
 - Up to £125,000	Zero
 - The next £125,000 (the portion from £125,001 to £250,000)	2%
@@ -13,11 +14,21 @@ Use the following rules to calculate the total stamp duty.
 - The remaining amount (the portion above £1.5 million)	12%
 ```
 
-For example, a property with the value of £675,000 would be calculated as follows:
-- First £125,000 is 0% which is £0.
-- Next £125,000 is 2% which is £2,500.
-- Next £425,000 is 5% which is £21,250.
-- For a total stamp duty of £23,750
+For example 1, a property with the value of £675,000 would be calculated as follows:
+
+First £125,000 is 0% which is £0.
+Next £125,000 is 2% which is £2,500.
+Next £425,000 is 5% which is £21,250.
+For a total stamp duty of £23,750.
+
+For example 2, a property with the value of £2,000,000 would be calculated as follows:
+
+First £125,000 is 0% which is £0.
+Next £125,000 is 2% which is £2,500.
+Next £675,000 is 5% which is £33,750.
+Next £575,000 is 10% which is £57,500.
+Next £500,000 is 12% which is £60,000.
+For a total stamp duty of £153,750.
 
 Remember to write tests and build the best solution possible to showcase your skills.
 
@@ -26,6 +37,7 @@ Remember to write tests and build the best solution possible to showcase your sk
 1 - Adjust your solution to calculate the rate for a first time buyer as well. You'll need to add another parameter.
 
 The following rules should be implemented.
+
 ```
 First time property
 - no SDLT up to £300,000
