@@ -16,19 +16,19 @@ Use the following rules to calculate the total stamp duty.
 
 For example 1, a property with the value of £675,000 would be calculated as follows:
 
-First £125,000 is 0% which is £0.
-Next £125,000 is 2% which is £2,500.
-Next £425,000 is 5% which is £21,250.
-For a total stamp duty of £23,750.
+- First £125,000 is 0% which is £0.
+- Next £125,000 is 2% which is £2,500.
+- Next £425,000 is 5% which is £21,250.
+- For a total stamp duty of £23,750.
 
 For example 2, a property with the value of £2,000,000 would be calculated as follows:
 
-First £125,000 is 0% which is £0.
-Next £125,000 is 2% which is £2,500.
-Next £675,000 is 5% which is £33,750.
-Next £575,000 is 10% which is £57,500.
-Next £500,000 is 12% which is £60,000.
-For a total stamp duty of £153,750.
+- First £125,000 is 0% which is £0.
+- Next £125,000 is 2% which is £2,500.
+- Next £675,000 is 5% which is £33,750.
+- Next £575,000 is 10% which is £57,500.
+- Next £500,000 is 12% which is £60,000.
+- For a total stamp duty of £153,750.
 
 Remember to write tests and build the best solution possible to showcase your skills.
 
